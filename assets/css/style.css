@@ -1,4 +1,3 @@
-
 :root {
 
   --bright-yellow-crayola: hsl(40, 100%, 50%);
@@ -70,10 +69,6 @@
 
 }
 
-
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -140,10 +135,6 @@ body {
 ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 95%); }
 
 ::-webkit-scrollbar-thumb { background-color: var(--pistachio); }
-
-
-
-
 
 /*-----------------------------------*\
   #REUSED STYLE
@@ -235,9 +226,6 @@ body {
   height: 100%;
   object-fit: cover;
 }
-
-
-
 
 /*-----------------------------------*\
   #HEADER
@@ -361,10 +349,6 @@ body {
 
 .navbar-link:is(:hover, :focus) { background-color: var(--pistachio); }
 
-
-
-
-
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
@@ -397,10 +381,6 @@ body {
   max-width: 50ch;
   margin-block-end: 30px;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #FEATURES
@@ -437,10 +417,6 @@ body {
   color: var(--white_50);
   font-size: var(--fs-9);
 }
-
-
-
-
 
 /*-----------------------------------*\
   #ABOUT
@@ -524,10 +500,6 @@ body {
   font-weight: var(--fw-500);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #CTA
 \*-----------------------------------*/
@@ -550,10 +522,6 @@ body {
 .cta .btn-outline { margin-inline: auto; }
 
 .cta-banner { background-color: var(--light-gray); }
-
-
-
-
 
 /*-----------------------------------*\
   #SERVICE
@@ -614,10 +582,6 @@ body {
 }
 
 .btn-link span { text-decoration: underline; }
-
-
-
-
 
 /*-----------------------------------*\
   #DONATE
@@ -702,10 +666,6 @@ body {
 
 .card-wrapper-text .cyan { color: var(--medium-turquoise); }
 
-
-
-
-
 /*-----------------------------------*\
   #TESTIMONIALS
 \*-----------------------------------*/
@@ -740,10 +700,6 @@ body {
 
 .testi-banner { background-color: var(--light-gray); }
 
-
-
-
-
 /*-----------------------------------*\
   #PARTNER
 \*-----------------------------------*/
@@ -763,10 +719,6 @@ body {
 
 .partner-logo:is(:hover, :focus) .color,
 .partner-logo .gray { display: block; }
-
-
-
-
 
 /*-----------------------------------*\
   #EVENT
@@ -832,10 +784,6 @@ body {
 
 .event .btn-secondary { margin-inline: auto; }
 
-
-
-
-
 /*-----------------------------------*\
   #INSTA POST
 \*-----------------------------------*/
@@ -878,10 +826,6 @@ body {
   min-width: 90%;
   scroll-snap-align: center;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #FOOTER
@@ -930,10 +874,6 @@ body {
 
 .copyright-link { display: inline-block; }
 
-
-
-
-
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -958,8 +898,6 @@ body {
 
   }
 
-
-
   /**
    * CTA
    */
@@ -967,10 +905,6 @@ body {
   .cta { --fs-4: 4.1rem; }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 580px screen
@@ -991,8 +925,6 @@ body {
     --fs-2: 5.5rem;
 
   }
-
-
 
   /**
    * DONATE
@@ -1015,8 +947,6 @@ body {
 
   .donate-card .card-title { --fs-5: 2.4rem; }
 
-
-
   /**
    * EVENT
    */
@@ -1034,8 +964,6 @@ body {
     line-height: 1.4;
   }
 
-
-
   /**
    * INSTA POST
    */
@@ -1043,10 +971,6 @@ body {
   .insta-post-item { min-width: 45%; }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 768px screen
@@ -1060,8 +984,6 @@ body {
 
   .features-list,
   .service-list { grid-template-columns: 1fr 1fr; }
-
-
 
   /**
    * ABOUT
@@ -1081,8 +1003,6 @@ body {
 
   .about-img:first-child { margin-block-end: 30px; }
 
-
-
   /**
    * TESTIMONIALS
    */
@@ -1095,15 +1015,11 @@ body {
 
   .testi-text { margin-block-start: 0; }
 
-
-
   /**
    * INSTA POST
    */
 
   .insta-post-item { min-width: 32%; }
-
-
 
   /**
    * FOOTER
@@ -1123,10 +1039,6 @@ body {
   .footer-list { margin-block-end: 0; }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 992px screen
@@ -1148,8 +1060,6 @@ body {
 
   }
 
-
-
   /**
    * HEADER
    */
@@ -1169,8 +1079,6 @@ body {
 
   .search-btn ion-icon { --ionicon-stroke-width: 50px; }
 
-
-
   /**
    * HERO
    */
@@ -1183,8 +1091,6 @@ body {
     min-height: 780px;
   }
 
-
-
   /**
    * FEATURES
    */
@@ -1192,8 +1098,6 @@ body {
   .features { padding-block-start: var(--section-padding); }
 
   .features-list { grid-template-columns: repeat(4, 1fr); }
-
-
 
   /**
    * ABOUT
@@ -1219,8 +1123,6 @@ body {
 
   .about-banner { margin-block-end: 0; }
 
-
-
   /**
    * CTA
    */
@@ -1235,15 +1137,11 @@ body {
 
   .cta .section-title { --fs-4: 5rem; }
 
-
-
   /**
    * SERVICE
    */
 
   .service-list { grid-template-columns: repeat(4, 1fr); }
-
-
 
   /**
    * DONATE
@@ -1253,8 +1151,6 @@ body {
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
   }
-
-
 
   /**
    * TESTIMONIALS
@@ -1266,8 +1162,6 @@ body {
   }
 
   .testi-content { padding-inline: 30px 50px; }
-
-
 
   /**
    * EVENT
@@ -1282,8 +1176,6 @@ body {
 
   .event-card .card-text { margin-block-end: 0; }
 
-
-
   /**
    * INSTA POST
    */
@@ -1291,10 +1183,6 @@ body {
   .insta-post-item { min-width: 24%; }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 1200px screen
@@ -1316,8 +1204,6 @@ body {
 
   }
 
-
-
   /**
    * REUSED STYLE
    */
@@ -1330,8 +1216,6 @@ body {
   }
 
   .section-title { line-height: 1.2; }
-
-
 
   /**
    * HEADER
